@@ -1,0 +1,43 @@
+{
+  "name": "koa",
+  "description": "test koa server with socket connection",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "api": "npx apidoc -i ./router -o static/apidoc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiawang1024/koa-template.git"
+  },
+  "keywords": [
+    "koa-template"
+  ],
+  "author": "soks",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "https": "^1.0.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-router": "^8.0.8",
+    "koa-socket-2": "^2.0.0",
+    "koa-static": "^5.0.0",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "apidoc": "^0.20.0",
+    "nodemon": "^2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/xiawang1024/koa-template/issues"
+  },
+  "engines": {
+    "node": ">= 7.6"
+  },
+  "homepage": "https://github.com/xiawang1024/koa-template#readme"
+}
