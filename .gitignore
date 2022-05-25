@@ -1,4 +1,5 @@
 /node_modules
 /sockets-server/node_modules
+/sockets-server/.idea
 /sockets-client/node_modules
 /.idea
