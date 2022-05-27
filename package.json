@@ -2,7 +2,6 @@
   "name": "socket-chat",
   "version": "1.0.0",
   "description": "simple chat based on socket connection",
-  "main": "index.js",
   "scripts": {
     "start": "npm i && concurrently \"npm run client\" \"npm run server\"",
     "client": "cd ./sockets-client && npm i && npm run start",

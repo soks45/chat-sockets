@@ -20,6 +20,6 @@ export class MessagesComponent implements OnInit {
   }
 
   sendMessage() {
-    this.messenger.sendMessage(this.message);
+    this.messenger.sendMessage(this.message.substring(0, 5));
   }
 }

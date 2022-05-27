@@ -13,7 +13,7 @@ io.on('connection', socket => {
     socket.join('room')
     console.log('socket initialization completed')
     socket.on('newMessage', (data) => {
-        socket.emit('newMessage', { message: data })
+        // socket.emit('newMessage', { message: data })
         console.log(data, 'received information')
         socket.to('room').emit('newMessage', { message: data })
     })
